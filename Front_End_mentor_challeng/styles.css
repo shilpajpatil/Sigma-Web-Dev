@@ -1,0 +1,105 @@
+.container{
+    width: 200vh;
+    height: 95vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 235, 236);
+
+}
+
+.Back_container{
+    width: 185vh;
+    height: 85vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 213, 223);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.card_container
+{
+    display: block;
+    width: 45vh;
+    height: 65vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    padding: 20px;;
+    align-items: center;
+
+}
+
+.img_container
+{
+    background-color: rgb(157, 211, 230);
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img_container img{
+    width: 45vh;
+    height: 35vh;
+
+}
+.text_container{
+    font-weight: 650;
+}
+
+
+
+.upper-l{
+    position: absolute;
+    top:20px;
+    left: 80vh;
+    width: 50px;
+    height: 50px;
+}
+
+.upper-l::before,
+.upper-l::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(245, 125, 125);
+}
+
+.upper-l::before{
+    width: 50px;
+    height: 5px;
+    top:0;
+    left:0;
+
+}
+
+.upper-l::after{
+    width: 5px;
+    height: 50px;
+    top:0;
+    left:0;
+}
+
+
+.horizontal{
+    width: 40px;
+    height: 5px;
+    background-color: red;
+}
+
+.vertical{
+    width:5px;
+    height: 40px;
+    background-color: red;
+}
